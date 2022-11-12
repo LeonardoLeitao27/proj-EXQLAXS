@@ -2,6 +2,11 @@
   margin: 10px;
 }
 
-.App{
-  background-color: blue;
+body{
+  background-color: rgb(49, 49, 83);
 }
+
+a , li{
+  color: aliceblue;
+}
+
