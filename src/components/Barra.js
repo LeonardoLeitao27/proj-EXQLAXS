@@ -5,15 +5,13 @@ import logomarca from '../img/logo.png'
 function barra(){
     return(
         <>
-            <div className='barra-de-navegacao'>
+            <div className={styles.navegacao}>
                 
-                <img src={logomarca}/>
-
-                <a>Login</a>
+                <img className='logo' src={logomarca}/>
 
                 <ul>
-                    <li>Planos</li>
-                    <li>Suporte</li>
+                    <li>Login</li>
+                    <li>Se registrar</li>
                 </ul>
 
             </div>

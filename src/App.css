@@ -1,12 +1,13 @@
-*{
-  margin: 10px;
-}
-
 body{
   background-color: rgb(49, 49, 83);
 }
 
 a , li{
   color: aliceblue;
+  list-style-type: none;
 }
 
+.logo{
+  max-width: 5%;
+  margin: 0.5%;
+}
